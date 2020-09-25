@@ -1,0 +1,9 @@
+  <ol>
+<%@links.each do |link| %>
+
+  <li>
+  <%= link_to "#{job_title(link)}", "#{link}" , target: '_blank'%>
+  </li>
+  
+<% end %>
+</ol>
